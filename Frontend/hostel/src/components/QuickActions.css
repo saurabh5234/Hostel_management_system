@@ -1,0 +1,57 @@
+.quick-actions {
+  margin-top: 30px;
+}
+
+.quick-actions h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.quick-actions {
+  margin-top: 24px;
+}
+
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+
+.quick-action-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: all 0.25s ease;
+}
+
+.quick-action-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(79,70,229,0.25);
+}
+
+.quick-action-card .icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.quick-action-card span {
+  font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+  .quick-actions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-actions-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

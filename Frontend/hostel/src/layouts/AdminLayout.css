@@ -1,0 +1,28 @@
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f6fa;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 30px;
+}
+
+/* ---------- Mobile Responsive ---------- */
+@media (max-width: 768px) {
+  .admin-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .admin-main {
+    margin-left: 0;
+    padding: 15px;
+  }
+}

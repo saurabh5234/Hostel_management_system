@@ -1,0 +1,49 @@
+.tenants-page {
+  padding: 20px;
+}
+
+.tenants-page h2 {
+  margin-bottom: 20px;
+}
+
+.tenants-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tenants-actions input,
+.tenants-actions select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  min-width: 200px;
+}
+
+.add-tenant-btn {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-tenant-btn:hover {
+  background: #4338ca;
+}
+
+.tenants-empty {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: #666;
+}
+
+.tenants-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}

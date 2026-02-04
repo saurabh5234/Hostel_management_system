@@ -1,0 +1,31 @@
+.payments-page {
+  padding: 20px;
+}
+
+.payment-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.payments-list {
+  display: grid;
+  gap: 12px;
+}
+
+.payment-row {
+  background: white;
+  padding: 14px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+}

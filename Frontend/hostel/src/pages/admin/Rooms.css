@@ -1,0 +1,141 @@
+.rooms-page {
+  padding: 20px;
+}
+
+.rooms-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.rooms-actions input,
+.rooms-actions select {
+  padding: 8px;
+}
+
+.add-room-btn {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.room-card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.status.vacant { background: #dcfce7; color: #166534; }
+.status.occupied { background: #fee2e2; color: #991b1b; }
+.status.maintenance { background: #fef3c7; color: #92400e; }
+
+.room-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.room-actions .danger {
+  color: red;
+}
+
+.room-card {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.room-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.room-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.status-badge.vacant {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-badge.occupied {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.status-badge.maintenance {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.room-info p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+.amenities {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.room-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.room-actions button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.room-actions button:hover {
+  opacity: 0.9;
+}
+
+.room-actions .danger {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.room-actions .danger:hover {
+  background: #ef4444;
+  color: white;
+}

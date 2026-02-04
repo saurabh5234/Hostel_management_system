@@ -1,0 +1,22 @@
+.reports-page {
+  padding: 24px;
+}
+
+.report-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.report-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.report-card.profit {
+  background: #ecfdf5;
+  color: #065f46;
+}
