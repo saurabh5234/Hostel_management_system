@@ -5,7 +5,7 @@ A full-stack web application to manage hostel operations such as rooms, tenants/
 Tech Stack
 - Frontend: React (Vite)
 - Backend: Node.js, Express
-- Database: (MongoDB / MySQL / PostgreSQL – update as per your project)
+- Database: (MongoDB )
 - Authentication: JWT (Role-based access: Admin, Student)
 
  Features
@@ -14,9 +14,3 @@ Tech Stack
 - Secure authentication & authorization
 - Reports & analytics (revenue, occupancy)
 
-How to Run Locally
-Backend
-bash
-cd Backend
-npm install
-npm start
